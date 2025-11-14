@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+US+Modern:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="section-one">
+                <div class="user-input">
+                    <input type="text" name="search-weather" id="input-tag" placeholder="Search a City...">
+                    <div class="input-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="weather-icon">
+
+                </div>
+                <div class="weather-temperature">
+                    <p class="weather-temp">-&deg;C</p>
+                    <p class="weather-mood">--</p>
+                </div>
+                <hr style="width: 50%;">
+                <div class="date-time">
+                    <div class="date">-/-/-</div>
+                    <div class="time">---</div>
+                    <div class="day">Day</div>
+                </div>
+                <div class="location">
+                </div>
+            </div>
+            <div class="section-two">
+                <h1>Today</h1>
+                <div class="boxes">
+                    <div class="box box-1">
+                        <div class="icon">
+                            <i class="fa-solid fa-wind"></i> 
+                            <p>Wind</p>
+                        </div>
+                        <div class="wind">--</div>
+                    </div>
+                    <div class="box box-2">
+                        <div class="icon">
+                            <i class="fa-solid fa-water"></i>
+                            <p>Humidity</p>
+                        </div>
+                        <div class="humidity">--</div>
+                    </div>
+                    <div class="box box-3">
+                        <div class="icon">
+                            <i class="fa-solid fa-temperature-half"></i>
+                            <p>Real Feel</p>
+                        </div>
+                        <div class="realfeel">--</div>
+                    </div>
+                    <div class="box box-4">
+                        <div class="icon">
+                            <i class="fa-solid fa-sun"></i>
+                            <p>UV Index</p>
+                        </div>
+                        <div class="uv-index">--</div>
+                        <div class="uv-valuelevel">--</div>
+                    </div>
+                    <div class="box box-5">
+                        <div class="icon">
+                             <i class="fa-solid fa-gauge"></i>
+                            <p>Pressure</p>
+                        </div>
+                        <div class="pressure">--</div>
+                    </div>
+                    <div class="box box-6">
+                        <div class="icon">
+                             <i class="fa-solid fa-cloud-rain"></i>
+                            <p>Chance of rain</p>
+                        </div>
+                        <div class="c-o-r">--</div>
+                    </div>
+                    <div class="box box-7">
+                        <div class="icon">
+                            <i class="fa-solid fa-temperature-half"></i>
+                            <p class="p-tem">Temperature History</p>
+                        </div>
+                        <div class="tem-his">
+                            <div class="up">--</div>
+                            <div class="down">--</div>
+                        </div>
+                    </div>
+                    <div class="box box-8">
+                        <div class="icon">
+                             <i class="fa-solid fa-sun"></i>
+                            <p>Sun</p>
+                        </div>
+                        <div class="sun-his">
+                            <div class="sun-rise">--</div>
+                            <div class="sun-set">--</div>
+                        </div>
+                    </div>
+                    <div class="box box-9">
+                        <div class="icon">
+                           <i class="fa-solid fa-moon"></i>
+                            <p>Moon</p>
+                        </div>
+                        <div class="moon-his">
+                            <div class="moon-rise">--</div>
+                            <div class="moon-set">--</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
